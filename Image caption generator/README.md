@@ -1,9 +1,8 @@
-# Image-Caption-Generator
+# Image-Caption-Generator-using-Deep Learning
 
 
-----
 ## Description
-This repository contains files related to my project on Image Caption Generation.
+This repository contains files related to the  project on Image Caption Generation using Deep learning
 
 ----
 ## Dataset
@@ -21,77 +20,37 @@ This repository contains files related to my project on Image Caption Generation
 * keras
 * tensorflow
 
-## Project Structure
-----
-   ├── beamsearch.py <br>
-   ├── clean_captions.py<br>
-   ├── Dataset<br>
-   ├── Glove<br>
-   │   └── glove.6B.300d.txt<br>
-   ├── GreedyCaption.py<br>
-   ├── gui.py<br>
-   ├── gui_sub.py<br>
-   ├── gui_sub.py<br>
-   ├── ImageFeature_extraction.py<br>
-   ├── images<br>
-   │   ├── 101654506_8eb26cfb60.jpg<br>
-   │   ├── 102455176_5f8ead62d5.jpg<br>
-   │   ├── 106490881_5a2dd9b7bd.jpg<br>
-   │   ├── 10815824_2997e03d76.jpg<br>
-   │   ├── 20190908_182047.jpeg<br>
-   │   ├── 20190908_185519.jpeg<br>
-   │   ├── 47870024_73a4481f7d.jpg<br>
-   │   ├── 56494233_1824005879.jpg<br>
-   │   └── pic.jpeg<br>
-   ├── index.jpeg<br>
-   ├── model_weights<br>
-   │   └── FinalModel.h5<br>
-   ├── Preprocessed Data<br>
-   │   ├── clean_captions.pkl<br>
-   │   ├── Image_features.pkl<br>
-   │   └── vocabulary.pkl<br>
-   ├── requirements.txt<br>
-   ├── training.py<br>
-   └── vocabulary.py<br>
-
 
 ## Run Model in steps
----
-*Image Feature Extraction*
---------------------------
-```
+
+***Image Feature Extraction***
+
 $ python3 ImageFeature_extraction.py
-```
-*Caption Preprocessing step*
---------------------------
-```
+
+***Caption Preprocessing step***
+
 $ python3 clean_captions.py
-```
-*Generating Vocabulary of Caption words*
---------------------------
-```
+
+***Generating Vocabulary of Caption words***
+
 $ python3 vocabulary.py
-```
-*Training of the Model*
---------------------------
-```
+
+***Training of the Model***
+
 $ python3 training.py
-```
-*Test model*
---------------------------
-```
+
+***Test model***
+
 $ python3 gui.py
 
-this gui is made using python Tkinter package 
-```
+use tkinter for GUI
 
 ## Testing The Model
  
-to run gui write the command python gui.py
-```
+to run gui write the command  in the  command prompt  python gui.py
 
-*Test Results*
---------------
+***Test Results***
+
 When you run the gui.py using above command it will show you welcome screen and will ask you to choose the image from your local directory. 
 
 
